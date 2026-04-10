@@ -1,0 +1,69 @@
+<svg fill="none" viewBox="0 0 860 260" width="860" height="260" xmlns="http://www.w3.org/2000/svg">
+  <foreignObject width="100%" height="100%">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>
+        .wrap{width:860px;height:260px;background:#0d0d0d;font-family:'Segoe UI',system-ui,sans-serif;box-sizing:border-box;padding:26px 40px;}
+        .sec{font-family:'Courier New',monospace;font-size:11px;color:#c9f064;letter-spacing:2px;text-transform:uppercase;margin-bottom:14px;}
+        .row{display:grid;grid-template-columns:120px 1fr;align-items:center;padding:11px 0;border-bottom:1px solid #161616;}
+        .row.last{border-bottom:none;}
+        .cat{font-family:'Courier New',monospace;font-size:10px;color:#555555;text-transform:uppercase;letter-spacing:1.5px;}
+        .pills{display:flex;flex-wrap:wrap;gap:6px;}
+        .pill{font-family:'Courier New',monospace;font-size:10px;padding:4px 9px;border-radius:2px;background:#111111;border:1px solid #222222;color:#555555;text-transform:uppercase;letter-spacing:0.8px;box-sizing:border-box;}
+        .pill.hl{background:#13180c;border:1px solid #2a3318;color:#c9f064;}
+      </style>
+      <div class="wrap">
+        <div class="sec">// tech stack</div>
+        <div class="row">
+          <div class="cat">Languages</div>
+          <div class="pills">
+            <div class="pill hl">Python</div>
+            <div class="pill hl">SQL</div>
+            <div class="pill">TypeScript</div>
+            <div class="pill">C#</div>
+            <div class="pill">Rust</div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="cat">Backend</div>
+          <div class="pills">
+            <div class="pill hl">FastAPI</div>
+            <div class="pill">PostgreSQL</div>
+            <div class="pill">Redis</div>
+            <div class="pill">.NET</div>
+            <div class="pill">MySQL</div>
+            <div class="pill">Docker</div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="cat">AI / NLP</div>
+          <div class="pills">
+            <div class="pill hl">sentence-transformers</div>
+            <div class="pill hl">spaCy</div>
+            <div class="pill">FAISS</div>
+            <div class="pill">scikit-learn</div>
+            <div class="pill">DBSCAN</div>
+            <div class="pill">OpenAI API</div>
+            <div class="pill">Gemini API</div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="cat">Systems</div>
+          <div class="pills">
+            <div class="pill">LALRPOP</div>
+            <div class="pill">Raw Sockets</div>
+            <div class="pill">Concurrent Prog.</div>
+            <div class="pill">Compiler Design</div>
+          </div>
+        </div>
+        <div class="row last">
+          <div class="cat">Frontend</div>
+          <div class="pills">
+            <div class="pill">Angular</div>
+            <div class="pill">Vue.js</div>
+            <div class="pill">Tailwind CSS</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </foreignObject>
+</svg>

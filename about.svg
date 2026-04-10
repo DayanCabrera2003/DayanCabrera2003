@@ -1,0 +1,44 @@
+<svg fill="none" viewBox="0 0 860 260" width="860" height="260" xmlns="http://www.w3.org/2000/svg">
+  <foreignObject width="100%" height="100%">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>
+        .wrap{width:860px;height:260px;background:#0d0d0d;font-family:'Segoe UI',system-ui,sans-serif;box-sizing:border-box;padding:28px 40px;color:#f0ece4;}
+        .cards{display:grid;grid-template-columns:1fr 1fr 1fr 1fr;gap:12px;margin-bottom:20px;}
+        .card{background:#111111;border:1px solid #1e1e1e;border-top:2px solid #c9f064;padding:14px 14px 14px 14px;height:136px;box-sizing:border-box;}
+        .card .lb{font-family:'Courier New',monospace;font-size:10px;color:#c9f064;letter-spacing:1.5px;text-transform:uppercase;margin-bottom:10px;}
+        .card .desc{font-size:11.5px;color:#9a9890;line-height:1.55;font-family:'Segoe UI',system-ui,sans-serif;}
+        .card .desc strong{color:#f0ece4;font-weight:600;}
+        .stats{display:grid;grid-template-columns:1fr 1fr 1fr;gap:14px;border-top:1px solid #161616;padding-top:14px;}
+        .stat{display:flex;align-items:baseline;gap:12px;}
+        .stat .n{font-family:'Courier New',monospace;font-size:26px;font-weight:800;color:#c9f064;letter-spacing:-0.5px;line-height:1;}
+        .stat .sep{color:#2a2a2a;font-family:'Courier New',monospace;font-size:16px;}
+        .stat .t{font-family:'Courier New',monospace;font-size:10px;color:#555555;text-transform:uppercase;letter-spacing:1.2px;line-height:1.3;}
+      </style>
+      <div class="wrap">
+        <div class="cards">
+          <div class="card">
+            <div class="lb">&#8594; Building</div>
+            <div class="desc"><strong>PerspectiVa</strong> &#8212; REST API processing <strong>10K+ articles/day</strong>, <strong>95%</strong> semantic clustering accuracy.</div>
+          </div>
+          <div class="card">
+            <div class="lb">&#8594; Currently</div>
+            <div class="desc">Final-year CS at <strong>MATCOM, UH</strong>. Graduating <strong>2026</strong>. Seeking <strong>remote backend</strong> roles.</div>
+          </div>
+          <div class="card">
+            <div class="lb">&#8594; Interests</div>
+            <div class="desc">Compiler design &#183; NLP pipelines &#183; distributed systems &#183; raw socket networking.</div>
+          </div>
+          <div class="card">
+            <div class="lb">&#8594; Environment</div>
+            <div class="desc"><strong>Linux</strong> daily driver &#183; <strong>Rust</strong> for fun &#183; <strong>Python</strong> for production.</div>
+          </div>
+        </div>
+        <div class="stats">
+          <div class="stat"><div class="n">10K+</div><div class="sep">/</div><div class="t">articles<br/>per day</div></div>
+          <div class="stat"><div class="n">95%</div><div class="sep">/</div><div class="t">cluster<br/>accuracy</div></div>
+          <div class="stat"><div class="n">&#8722;80%</div><div class="sep">/</div><div class="t">reporting<br/>time</div></div>
+        </div>
+      </div>
+    </div>
+  </foreignObject>
+</svg>
