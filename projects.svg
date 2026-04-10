@@ -1,0 +1,55 @@
+<svg fill="none" viewBox="0 0 860 360" width="860" height="360" xmlns="http://www.w3.org/2000/svg">
+  <foreignObject width="100%" height="100%">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>
+        .wrap{width:860px;height:360px;background:#0d0d0d;font-family:'Segoe UI',system-ui,sans-serif;box-sizing:border-box;padding:26px 40px;}
+        .sec{font-family:'Courier New',monospace;font-size:11px;color:#c9f064;letter-spacing:2px;text-transform:uppercase;margin-bottom:12px;}
+        .proj{display:grid;grid-template-columns:1fr 150px;gap:24px;padding:14px 0;border-bottom:1px solid #161616;align-items:start;}
+        .proj.last{border-bottom:none;}
+        .name{font-family:'Courier New',monospace;font-size:12px;color:#f0ece4;text-transform:uppercase;letter-spacing:1.5px;margin-bottom:5px;font-weight:700;}
+        .desc{font-size:11.5px;color:#9a9890;line-height:1.5;font-family:'Segoe UI',system-ui,sans-serif;}
+        .tags{display:flex;flex-wrap:wrap;gap:4px;align-content:flex-start;}
+        .tag{font-family:'Courier New',monospace;font-size:9.5px;padding:3px 7px;background:#111111;border:1px solid #1e1e1e;color:#444444;border-radius:2px;text-transform:uppercase;letter-spacing:0.8px;}
+      </style>
+      <div class="wrap">
+        <div class="sec">// selected projects</div>
+        <div class="proj">
+          <div>
+            <div class="name">PerspectiVa</div>
+            <div class="desc">Spanish news comparison platform. Ingests 10K+ articles from 8 sources via RSS + scraping. DBSCAN semantic clustering, Redis cache, GPT for blind spot detection. Full Docker stack.</div>
+          </div>
+          <div class="tags">
+            <div class="tag">FastAPI</div><div class="tag">spaCy</div><div class="tag">DBSCAN</div><div class="tag">PostgreSQL</div><div class="tag">Angular</div>
+          </div>
+        </div>
+        <div class="proj">
+          <div>
+            <div class="name">HULK Compiler</div>
+            <div class="desc">Full compiler for an OO language in Rust from scratch. AST pipeline, type system, classes + inheritance + polymorphism. 100% syntax error coverage at compile time.</div>
+          </div>
+          <div class="tags">
+            <div class="tag">Rust</div><div class="tag">LALRPOP</div><div class="tag">AST</div>
+          </div>
+        </div>
+        <div class="proj">
+          <div>
+            <div class="name">TuristIA</div>
+            <div class="desc">Multi-agent RAG system for tourism itinerary generation in Cuba. FAISS semantic search + three metaheuristic optimizers (GA, PSO, ACO). Natural language interface via Gemini.</div>
+          </div>
+          <div class="tags">
+            <div class="tag">FAISS</div><div class="tag">RAG</div><div class="tag">Gemini API</div><div class="tag">Streamlit</div>
+          </div>
+        </div>
+        <div class="proj last">
+          <div>
+            <div class="name">Link-Chat</div>
+            <div class="desc">Layer 2 messaging protocol over raw Ethernet frames &#8212; bypasses TCP/IP entirely. Broadcast/unicast, file fragmentation, automatic device discovery with timeout handling.</div>
+          </div>
+          <div class="tags">
+            <div class="tag">Python</div><div class="tag">Raw Sockets</div><div class="tag">L2 Protocol</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </foreignObject>
+</svg>
