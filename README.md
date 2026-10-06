@@ -9,15 +9,22 @@
 <!-- STATUS:END -->
 
 <p align="center">
+  <img src="assets/typing.svg" width="600" alt="I write compilers in Rust. I cluster 10K news articles a day. I send chat over raw Ethernet frames.">
+</p>
+
+<p align="center">
   Backend &amp; AI engineer. I build compilers, NLP pipelines and network protocols — mostly in Python and Rust, always on Linux.
 </p>
 
 <p align="center">
   <a href="#hulk-playground">Run code on my compiler</a> ·
   <a href="#tetris">Watch Tetris</a> ·
+  <a href="#lately">Lately</a> ·
   <a href="#projects">Projects</a> ·
   <a href="#what-i-work-with">Stack</a>
 </p>
+
+<img src="assets/divider.svg" width="100%" alt="">
 
 ## HULK playground
 
@@ -64,22 +71,39 @@ Hello World
 ```
 <!-- HULK:END -->
 
+<img src="assets/divider.svg" width="100%" alt="">
+
 ## Tetris
 
-A bot plays a full game of Tetris here, start to finish, on a loop. It is not a very good player on purpose, so the stack always ends up reaching the top. Every few hours the game is thrown away and a new one is generated from a different seed.
+A bot is playing one game of Tetris here and it never loses. It looks a piece ahead, keeps the stack low and clears lines forever. What you see is the latest stretch of the game on a loop; every few hours it picks up where it left off and plays the next one.
 
 <p align="center">
-  <img src="assets/tetris.svg" width="240" alt="A game of Tetris playing itself">
+  <img src="assets/tetris.svg" width="260" alt="A game of Tetris playing itself">
 </p>
 
 <!-- TETRIS:START -->
-Game `#1791256191` · **35** pieces · **1** lines cleared · a new game is generated every few hours
+One endless game · **90** pieces placed · **35** lines cleared so far
 <!-- TETRIS:END -->
+
+<img src="assets/divider.svg" width="100%" alt="">
+
+## Lately
+
+What I have been pushing to, straight from my public activity.
+
+<!-- LATELY:START -->
+- [`hulk_compiler`](https://github.com/DayanCabrera2003/hulk_compiler) · pushed Oct 5
+- [`daa-blossom-game`](https://github.com/DayanCabrera2003/daa-blossom-game) · pushed Sep 30
+- [`Almacen-Distribuido`](https://github.com/DayanCabrera2003/Almacen-Distribuido) · pushed Sep 29
+- [`Horario`](https://github.com/DayanCabrera2003/Horario) · pushed Sep 28
+<!-- LATELY:END -->
+
+<img src="assets/divider.svg" width="100%" alt="">
 
 ## Projects
 
 <details open>
-<summary><b>PerspectiVa</b> — how different outlets cover the same story</summary>
+<summary>📰 <b>PerspectiVa</b> — how different outlets cover the same story</summary>
 
 Spanish news comparison platform. Ingests 10K+ articles a day from 8 sources via RSS and scraping, groups them by story with DBSCAN over sentence embeddings, and uses GPT to point out what each outlet leaves out. Redis cache, full Docker stack.
 
@@ -88,7 +112,7 @@ Spanish news comparison platform. Ingests 10K+ articles a day from 8 sources via
 </details>
 
 <details>
-<summary><b>HULK Compiler</b> — an object-oriented language, from source to native code</summary>
+<summary>⚙️ <b>HULK Compiler</b> — an object-oriented language, from source to native code</summary>
 
 Nine-stage pipeline in Rust: lexer, parser with error recovery, name resolution, type inference, typed IR, macros, desugaring, three-address IR and LLVM code generation. Classes, inheritance, polymorphism, protocols, vectors and macros, with a C runtime. It is the compiler behind the playground above.
 
@@ -97,7 +121,7 @@ Nine-stage pipeline in Rust: lexer, parser with error recovery, name resolution,
 </details>
 
 <details>
-<summary><b>TuristIA</b> — multi-agent itinerary planner for Cuba</summary>
+<summary>🧭 <b>TuristIA</b> — multi-agent itinerary planner for Cuba</summary>
 
 RAG system that builds tourism itineraries from natural-language requests. FAISS semantic search feeds three metaheuristic optimizers (genetic algorithm, particle swarm, ant colony), with Gemini as the language interface.
 
@@ -106,7 +130,7 @@ RAG system that builds tourism itineraries from natural-language requests. FAISS
 </details>
 
 <details>
-<summary><b>Link-Chat</b> — messaging over raw Ethernet frames</summary>
+<summary>🔌 <b>Link-Chat</b> — messaging over raw Ethernet frames</summary>
 
 A layer 2 protocol that skips TCP/IP entirely. Broadcast and unicast messages, file transfer with fragmentation, and automatic device discovery with timeout handling.
 
@@ -114,13 +138,60 @@ A layer 2 protocol that skips TCP/IP entirely. Broadcast and unicast messages, f
 
 </details>
 
+<img src="assets/divider.svg" width="100%" alt="">
+
 ## What I work with
 
-- **Languages:** Python · Rust · TypeScript · C# · SQL
-- **Backend:** FastAPI · .NET · PostgreSQL · MySQL · Redis · Docker
-- **AI / NLP:** sentence-transformers · spaCy · FAISS · scikit-learn · OpenAI API · Gemini API
-- **Systems:** compiler design · LLVM · raw sockets · concurrent programming
-- **Frontend:** Angular · Vue.js · Tailwind CSS
+**Languages**
+
+<p>
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" height="28">
+  <img src="https://img.shields.io/badge/Rust-B7410E?style=for-the-badge&logo=rust&logoColor=white" alt="Rust" height="28">
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" height="28">
+  <img src="https://img.shields.io/badge/C%23-512BD4?style=for-the-badge" alt="C#" height="28">
+  <img src="https://img.shields.io/badge/SQL-336791?style=for-the-badge" alt="SQL" height="28">
+</p>
+
+**Backend**
+
+<p>
+  <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" alt="FastAPI" height="28">
+  <img src="https://img.shields.io/badge/.NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white" alt=".NET" height="28">
+  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL" height="28">
+  <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL" height="28">
+  <img src="https://img.shields.io/badge/Redis-D82C20?style=for-the-badge&logo=redis&logoColor=white" alt="Redis" height="28">
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" height="28">
+</p>
+
+**AI / NLP**
+
+<p>
+  <img src="https://img.shields.io/badge/sentence--transformers-C99700?style=for-the-badge&logo=huggingface&logoColor=white" alt="sentence-transformers" height="28">
+  <img src="https://img.shields.io/badge/spaCy-09A3D5?style=for-the-badge&logo=spacy&logoColor=white" alt="spaCy" height="28">
+  <img src="https://img.shields.io/badge/FAISS-0467DF?style=for-the-badge&logo=meta&logoColor=white" alt="FAISS" height="28">
+  <img src="https://img.shields.io/badge/scikit--learn-E8710A?style=for-the-badge&logo=scikitlearn&logoColor=white" alt="scikit-learn" height="28">
+  <img src="https://img.shields.io/badge/OpenAI_API-412991?style=for-the-badge" alt="OpenAI API" height="28">
+  <img src="https://img.shields.io/badge/Gemini_API-8E75B2?style=for-the-badge&logo=googlegemini&logoColor=white" alt="Gemini API" height="28">
+</p>
+
+**Systems**
+
+<p>
+  <img src="https://img.shields.io/badge/Compiler_design-6E40C9?style=for-the-badge" alt="Compiler design" height="28">
+  <img src="https://img.shields.io/badge/LLVM-262D3A?style=for-the-badge&logo=llvm&logoColor=white" alt="LLVM" height="28">
+  <img src="https://img.shields.io/badge/Raw_sockets-1F6FEB?style=for-the-badge" alt="Raw sockets" height="28">
+  <img src="https://img.shields.io/badge/Concurrency-238636?style=for-the-badge" alt="Concurrency" height="28">
+</p>
+
+**Frontend**
+
+<p>
+  <img src="https://img.shields.io/badge/Angular-C3002F?style=for-the-badge&logo=angular&logoColor=white" alt="Angular" height="28">
+  <img src="https://img.shields.io/badge/Vue.js-3FB27F?style=for-the-badge&logo=vuedotjs&logoColor=white" alt="Vue.js" height="28">
+  <img src="https://img.shields.io/badge/Tailwind_CSS-0891B2?style=for-the-badge&logo=tailwindcss&logoColor=white" alt="Tailwind CSS" height="28">
+</p>
+
+<img src="assets/divider.svg" width="100%" alt="">
 
 <p align="center">
   <a href="https://github.com/DayanCabrera2003?tab=repositories">More repositories</a>

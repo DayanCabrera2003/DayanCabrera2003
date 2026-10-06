@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 26" role="presentation">
+<style>rect{animation:w 2.8s ease-in-out infinite}@keyframes w{0%,100%{transform:translateY(0);opacity:.35}50%{transform:translateY(-9px);opacity:1}}@media (prefers-reduced-motion:reduce){rect{animation:none;opacity:.7}}</style>
+<rect x="3" y="15" width="9" height="9" rx="2" fill="#22b8cf" style="animation-delay:0.00s"/>
+<rect x="18" y="15" width="9" height="9" rx="2" fill="#f5b301" style="animation-delay:-0.09s"/>
+<rect x="33" y="15" width="9" height="9" rx="2" fill="#a55eea" style="animation-delay:-0.18s"/>
+<rect x="48" y="15" width="9" height="9" rx="2" fill="#37b24d" style="animation-delay:-0.27s"/>
+<rect x="63" y="15" width="9" height="9" rx="2" fill="#f03e3e" style="animation-delay:-0.36s"/>
+<rect x="78" y="15" width="9" height="9" rx="2" fill="#4c6ef5" style="animation-delay:-0.45s"/>
+<rect x="93" y="15" width="9" height="9" rx="2" fill="#f76707" style="animation-delay:-0.54s"/>
+<rect x="108" y="15" width="9" height="9" rx="2" fill="#22b8cf" style="animation-delay:-0.63s"/>
+<rect x="123" y="15" width="9" height="9" rx="2" fill="#f5b301" style="animation-delay:-0.72s"/>
+<rect x="138" y="15" width="9" height="9" rx="2" fill="#a55eea" style="animation-delay:-0.81s"/>
+<rect x="153" y="15" width="9" height="9" rx="2" fill="#37b24d" style="animation-delay:-0.90s"/>
+<rect x="168" y="15" width="9" height="9" rx="2" fill="#f03e3e" style="animation-delay:-0.99s"/>
+<rect x="183" y="15" width="9" height="9" rx="2" fill="#4c6ef5" style="animation-delay:-1.08s"/>
+<rect x="198" y="15" width="9" height="9" rx="2" fill="#f76707" style="animation-delay:-1.17s"/>
+<rect x="213" y="15" width="9" height="9" rx="2" fill="#22b8cf" style="animation-delay:-1.26s"/>
+<rect x="228" y="15" width="9" height="9" rx="2" fill="#f5b301" style="animation-delay:-1.35s"/>
+<rect x="243" y="15" width="9" height="9" rx="2" fill="#a55eea" style="animation-delay:-1.44s"/>
+<rect x="258" y="15" width="9" height="9" rx="2" fill="#37b24d" style="animation-delay:-1.53s"/>
+<rect x="273" y="15" width="9" height="9" rx="2" fill="#f03e3e" style="animation-delay:-1.62s"/>
+<rect x="288" y="15" width="9" height="9" rx="2" fill="#4c6ef5" style="animation-delay:-1.71s"/>
+<rect x="303" y="15" width="9" height="9" rx="2" fill="#f76707" style="animation-delay:-1.80s"/>
+<rect x="318" y="15" width="9" height="9" rx="2" fill="#22b8cf" style="animation-delay:-1.89s"/>
+<rect x="333" y="15" width="9" height="9" rx="2" fill="#f5b301" style="animation-delay:-1.98s"/>
+<rect x="348" y="15" width="9" height="9" rx="2" fill="#a55eea" style="animation-delay:-2.07s"/>
+<rect x="363" y="15" width="9" height="9" rx="2" fill="#37b24d" style="animation-delay:-2.16s"/>
+<rect x="378" y="15" width="9" height="9" rx="2" fill="#f03e3e" style="animation-delay:-2.25s"/>
+<rect x="393" y="15" width="9" height="9" rx="2" fill="#4c6ef5" style="animation-delay:-2.34s"/>
+<rect x="408" y="15" width="9" height="9" rx="2" fill="#f76707" style="animation-delay:-2.43s"/>
+<rect x="423" y="15" width="9" height="9" rx="2" fill="#22b8cf" style="animation-delay:-2.52s"/>
+<rect x="438" y="15" width="9" height="9" rx="2" fill="#f5b301" style="animation-delay:-2.61s"/>
+<rect x="453" y="15" width="9" height="9" rx="2" fill="#a55eea" style="animation-delay:-2.70s"/>
+<rect x="468" y="15" width="9" height="9" rx="2" fill="#37b24d" style="animation-delay:-2.79s"/>
+<rect x="483" y="15" width="9" height="9" rx="2" fill="#f03e3e" style="animation-delay:-2.88s"/>
+<rect x="498" y="15" width="9" height="9" rx="2" fill="#4c6ef5" style="animation-delay:-2.97s"/>
+<rect x="513" y="15" width="9" height="9" rx="2" fill="#f76707" style="animation-delay:-3.06s"/>
+<rect x="528" y="15" width="9" height="9" rx="2" fill="#22b8cf" style="animation-delay:-3.15s"/>
+<rect x="543" y="15" width="9" height="9" rx="2" fill="#f5b301" style="animation-delay:-3.24s"/>
+<rect x="558" y="15" width="9" height="9" rx="2" fill="#a55eea" style="animation-delay:-3.33s"/>
+<rect x="573" y="15" width="9" height="9" rx="2" fill="#37b24d" style="animation-delay:-3.42s"/>
+<rect x="588" y="15" width="9" height="9" rx="2" fill="#f03e3e" style="animation-delay:-3.51s"/>
+</svg>

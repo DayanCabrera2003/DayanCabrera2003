@@ -2,12 +2,14 @@
 
     avatar_state.py
 
-Looks at the latest public push and the time in Havana, copies the matching
-assets/avatar/<state>.svg to assets/avatar.svg and rewrites the STATUS block.
+Looks at the latest public pushes and the time in Havana, copies the matching
+assets/avatar/<state>.svg to assets/avatar.svg and rewrites the STATUS and
+LATELY blocks.
 """
 
 import json
 import os
+import re
 import shutil
 import urllib.request
 from datetime import datetime, timezone
@@ -20,10 +22,12 @@ ROOT = Path(__file__).resolve().parent.parent
 USER = "DayanCabrera2003"
 HAVANA = ZoneInfo("America/Havana")
 VACATION_AFTER_HOURS = 7 * 24
+LATELY_COUNT = 4
+REPO_NAME = re.compile(r"^[A-Za-z0-9-]+/[A-Za-z0-9._-]+$")
 
 
-def hours_since_last_push(now: datetime) -> float | None:
-    """Hours since the latest public push, or None if there is none on record."""
+def recent_pushes() -> list[tuple[str, datetime]]:
+    """Public pushes, newest first, as (owner/repo, time)."""
     request = urllib.request.Request(
         f"https://api.github.com/users/{USER}/events/public?per_page=100",
         headers={"Accept": "application/vnd.github+json"},
@@ -32,11 +36,25 @@ def hours_since_last_push(now: datetime) -> float | None:
         request.add_header("Authorization", f"Bearer {token}")
     with urllib.request.urlopen(request, timeout=20) as response:
         events = json.load(response)
-    for event in events:
-        if event.get("type") == "PushEvent":
-            pushed = datetime.fromisoformat(event["created_at"].replace("Z", "+00:00"))
-            return (now - pushed).total_seconds() / 3600
-    return None
+    return [
+        (event["repo"]["name"], datetime.fromisoformat(event["created_at"].replace("Z", "+00:00")))
+        for event in events
+        if event.get("type") == "PushEvent"
+    ]
+
+
+def lately(pushes: list[tuple[str, datetime]]) -> str:
+    """The latest few repositories pushed to, leaving out this profile itself."""
+    seen: dict[str, datetime] = {}
+    for repo, when in pushes:
+        if repo != f"{USER}/{USER}" and REPO_NAME.match(repo):
+            seen.setdefault(repo, when)
+    if not seen:
+        return "_Quiet lately._"
+    return "\n".join(
+        f"- [`{repo.split('/', 1)[1]}`](https://github.com/{repo}) · pushed {when.astimezone(HAVANA):%b %-d}"
+        for repo, when in list(seen.items())[:LATELY_COUNT]
+    )
 
 
 def pick_state(hours: float | None, havana_hour: int) -> str:
@@ -81,10 +99,12 @@ def caption(state: str, hours: float | None, now: datetime) -> str:
 
 def main() -> None:
     now = datetime.now(timezone.utc)
-    hours = hours_since_last_push(now)
+    pushes = recent_pushes()
+    hours = (now - pushes[0][1]).total_seconds() / 3600 if pushes else None
     state = pick_state(hours, now.astimezone(HAVANA).hour)
     shutil.copyfile(ROOT / "assets" / "avatar" / f"{state}.svg", ROOT / "assets" / "avatar.svg")
     replace_block("STATUS", f'<p align="center"><sub>{caption(state, hours, now)}</sub></p>')
+    replace_block("LATELY", lately(pushes))
     print(state)
 
 

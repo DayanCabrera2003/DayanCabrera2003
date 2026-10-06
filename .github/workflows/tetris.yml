@@ -2,7 +2,7 @@ name: Tetris
 
 on:
   schedule:
-    # A fresh self-playing game every three hours.
+    # The endless game advances every three hours.
     - cron: "41 */3 * * *"
   workflow_dispatch:
 
@@ -18,14 +18,14 @@ jobs:
       cancel-in-progress: false
     steps:
       - uses: actions/checkout@v4
-      - name: Play a new game
+      - name: Play the next stretch
         run: python3 scripts/tetris.py
       - name: Commit
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add README.md assets/tetris.svg
-          git commit -m "Tetris: new game"
+          git add README.md tetris assets/tetris.svg
+          git commit -m "Tetris: next stretch"
           for attempt in 1 2 3 4 5; do
             git pull --rebase --quiet && git push && exit 0
             sleep $((attempt * 3))
