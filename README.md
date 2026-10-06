@@ -49,7 +49,33 @@ Built-ins: `print`, `range`, `sqrt`, `sin`, `cos`, `exp`, `log`, `rand`, `PI`, `
 </details>
 
 <!-- HULK:START -->
-_Nobody has run anything yet. Be the first._
+Last run: [#1](https://github.com/DayanCabrera2003/DayanCabrera2003/issues/1) by [@DayanCabrera2003](https://github.com/DayanCabrera2003)
+
+```js
+function fib(n: Number): Number =>
+    if (n <= 1) n else fib(n - 1) + fib(n - 2);
+
+for (i in range(0, 12)) print(fib(i));
+```
+
+**✅ Compiled and ran**
+
+Output:
+
+```text
+0
+1
+1
+2
+3
+5
+8
+13
+21
+34
+55
+89
+```
 <!-- HULK:END -->
 
 ## Community garden
