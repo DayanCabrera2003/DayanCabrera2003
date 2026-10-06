@@ -1,0 +1,69 @@
+name: HULK playground
+
+on:
+  issues:
+    types: [opened]
+
+concurrency:
+  group: readme
+  cancel-in-progress: false
+
+env:
+  HULK_RELEASE: https://github.com/DayanCabrera2003/hulk_compiler/releases/download/v0.1.0/hulk-linux-x86_64.tar.gz
+
+jobs:
+  # Compiles and runs code written by strangers, so this job gets a read-only
+  # token and hands its result to `publish` as plain data.
+  run:
+    if: startsWith(github.event.issue.title, 'hulk:')
+    runs-on: ubuntu-24.04
+    timeout-minutes: 5
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - name: Download the compiler
+        run: curl -fsSL "$HULK_RELEASE" | tar -xz -C "$RUNNER_TEMP"
+      - name: Compile and run
+        env:
+          ISSUE_BODY: ${{ github.event.issue.body }}
+          HULK_BIN: ${{ runner.temp }}/hulk-linux-x86_64/hulk
+          HULK_RUNTIME_DIR: ${{ runner.temp }}/hulk-linux-x86_64
+        run: python3 scripts/hulk_playground.py run
+      - uses: actions/upload-artifact@v4
+        with:
+          name: result
+          path: result.json
+
+  publish:
+    needs: run
+    runs-on: ubuntu-24.04
+    timeout-minutes: 5
+    permissions:
+      contents: write
+      issues: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/download-artifact@v4
+        with:
+          name: result
+      - name: Write the answer
+        env:
+          ISSUE_USER: ${{ github.event.issue.user.login }}
+          ISSUE_NUMBER: ${{ github.event.issue.number }}
+        run: python3 scripts/hulk_playground.py publish
+      - name: Reply and close
+        env:
+          GH_TOKEN: ${{ github.token }}
+          ISSUE_NUMBER: ${{ github.event.issue.number }}
+        run: gh issue close "$ISSUE_NUMBER" --comment "$(cat comment.md)"
+      - name: Commit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git diff --cached --quiet && exit 0
+          git commit -m "HULK playground: run #${{ github.event.issue.number }}"
+          git push
