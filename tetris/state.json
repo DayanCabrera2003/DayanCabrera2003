@@ -16,31 +16,30 @@
   "..........",
   "..........",
   "..........",
-  "..........",
-  ".T........",
-  "TTT.....L.",
+  "....JJ....",
+  ".T..J.....",
+  "TTT.J...L.",
   "OOLLLS..L."
  ],
  "queue": [
-  "O",
   "Z",
   "T",
   "S",
   "I"
  ],
- "score": 280,
+ "score": 290,
  "lines": 2,
- "pieces": 8,
+ "pieces": 9,
  "best": 0,
  "games": 0,
  "players": {
-  "DayanCabrera2003": 1
+  "DayanCabrera2003": 2
  },
  "last": {
   "player": "DayanCabrera2003",
-  "action": "rotate"
+  "action": "drop"
  },
- "piece": "J",
- "rot": 1,
+ "piece": "O",
+ "rot": 0,
  "x": 3
 }
