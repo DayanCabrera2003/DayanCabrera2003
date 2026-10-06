@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 244 320" role="img" aria-label="Community Tetris board">
+<style>text{font:600 11px ui-monospace,SFMono-Regular,Menlo,monospace;fill:#8b949e}.n{font-size:15px;fill:#58a6ff}</style>
+<rect width="160" height="320" rx="6" fill="#808080" fill-opacity="0.12"/>
+<path d="M16 0V320" stroke="#808080" stroke-opacity="0.12"/>
+<path d="M32 0V320" stroke="#808080" stroke-opacity="0.12"/>
+<path d="M48 0V320" stroke="#808080" stroke-opacity="0.12"/>
+<path d="M64 0V320" stroke="#808080" stroke-opacity="0.12"/>
+<path d="M80 0V320" stroke="#808080" stroke-opacity="0.12"/>
+<path d="M96 0V320" stroke="#808080" stroke-opacity="0.12"/>
+<path d="M112 0V320" stroke="#808080" stroke-opacity="0.12"/>
+<path d="M128 0V320" stroke="#808080" stroke-opacity="0.12"/>
+<path d="M144 0V320" stroke="#808080" stroke-opacity="0.12"/>
+<rect x="17" y="273" width="14" height="14" rx="3" fill="#a55eea"/>
+<rect x="1" y="289" width="14" height="14" rx="3" fill="#a55eea"/>
+<rect x="17" y="289" width="14" height="14" rx="3" fill="#a55eea"/>
+<rect x="33" y="289" width="14" height="14" rx="3" fill="#a55eea"/>
+<rect x="129" y="289" width="14" height="14" rx="3" fill="#f76707"/>
+<rect x="1" y="305" width="14" height="14" rx="3" fill="#f5b301"/>
+<rect x="17" y="305" width="14" height="14" rx="3" fill="#f5b301"/>
+<rect x="33" y="305" width="14" height="14" rx="3" fill="#f76707"/>
+<rect x="49" y="305" width="14" height="14" rx="3" fill="#f76707"/>
+<rect x="65" y="305" width="14" height="14" rx="3" fill="#f76707"/>
+<rect x="81" y="305" width="14" height="14" rx="3" fill="#37b24d"/>
+<rect x="129" y="305" width="14" height="14" rx="3" fill="#f76707"/>
+<rect x="49" y="273" width="14" height="14" rx="3" fill="#4c6ef5" fill-opacity="0.22"/>
+<rect x="49" y="289" width="14" height="14" rx="3" fill="#4c6ef5" fill-opacity="0.22"/>
+<rect x="65" y="289" width="14" height="14" rx="3" fill="#4c6ef5" fill-opacity="0.22"/>
+<rect x="81" y="289" width="14" height="14" rx="3" fill="#4c6ef5" fill-opacity="0.22"/>
+<g><animateTransform attributeName="transform" type="translate" calcMode="discrete" dur="3.92s" repeatCount="indefinite" values="0 0;0 16;0 32;0 48;0 64;0 80;0 96;0 112;0 128;0 144;0 160;0 176;0 192;0 208;0 224;0 240;0 256;0 272;0 272;0 272;0 272;0 272;0 272;0 272;0 272;0 272;0 272;0 272"/>
+<rect x="49" y="1" width="14" height="14" rx="3" fill="#4c6ef5"/>
+<rect x="49" y="17" width="14" height="14" rx="3" fill="#4c6ef5"/>
+<rect x="65" y="17" width="14" height="14" rx="3" fill="#4c6ef5"/>
+<rect x="81" y="17" width="14" height="14" rx="3" fill="#4c6ef5"/>
+</g>
+<text x="174" y="16">NEXT</text>
+<rect x="191" y="25" width="14" height="14" rx="3" fill="#f5b301"/>
+<rect x="207" y="25" width="14" height="14" rx="3" fill="#f5b301"/>
+<rect x="191" y="41" width="14" height="14" rx="3" fill="#f5b301"/>
+<rect x="207" y="41" width="14" height="14" rx="3" fill="#f5b301"/>
+<text x="174" y="104">SCORE</text>
+<text class="n" x="174" y="122">280</text>
+<text x="174" y="148">LINES</text>
+<text class="n" x="174" y="166">2</text>
+<text x="174" y="192">BEST</text>
+<text class="n" x="174" y="210">0</text>
+</svg>
