@@ -5,7 +5,7 @@
 <h1 align="center">Dayan Cabrera</h1>
 
 <!-- STATUS:START -->
-<p align="center"><sub>Just shipped a commit · last push minutes ago</sub></p>
+<p align="center"><sub>Asleep · 06:30 in Havana</sub></p>
 <!-- STATUS:END -->
 
 <p align="center">
