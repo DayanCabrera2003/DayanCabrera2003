@@ -4,7 +4,7 @@ on:
   issues:
     types: [opened]
   schedule:
-    # 07:00 and 23:00 in Havana (UTC-4 in summer, UTC-5 in winter; close enough).
+    # Twice a day, so the garden keeps moving even when nobody plants.
     - cron: "0 11 * * *"
     - cron: "0 3 * * *"
   workflow_dispatch:
@@ -43,11 +43,6 @@ jobs:
       - name: Grow
         if: github.event_name != 'issues'
         run: python3 scripts/garden.py tick
-      - name: Day or night avatar
-        run: |
-          hour=$(TZ=America/Havana date +%-H)
-          if [ "$hour" -ge 23 ] || [ "$hour" -lt 7 ]; then pose=night; else pose=day; fi
-          if [ -f "assets/avatar-$pose.svg" ]; then cp "assets/avatar-$pose.svg" assets/avatar.svg; fi
       - name: Commit
         run: |
           git config user.name "github-actions[bot]"

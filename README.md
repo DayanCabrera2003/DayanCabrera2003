@@ -1,8 +1,12 @@
 <p align="center">
-  <img src="assets/avatar.svg" width="150" alt="Dayan waving">
+  <img src="assets/avatar.svg" width="220" alt="Animated chibi of Dayan, changing with his latest activity">
 </p>
 
 <h1 align="center">Dayan Cabrera</h1>
+
+<!-- STATUS:START -->
+<p align="center"><sub>Just shipped a commit · last push minutes ago</sub></p>
+<!-- STATUS:END -->
 
 <p align="center">
   Backend &amp; AI engineer. I build compilers, NLP pipelines and network protocols — mostly in Python and Rust, always on Linux.
