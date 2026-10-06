@@ -49,7 +49,7 @@ Built-ins: `print`, `range`, `sqrt`, `sin`, `cos`, `exp`, `log`, `rand`, `PI`, `
 </details>
 
 <!-- HULK:START -->
-Last run: [#3](https://github.com/DayanCabrera2003/DayanCabrera2003/issues/3) by [@DayanCabrera2003](https://github.com/DayanCabrera2003)
+Last run: [#4](https://github.com/DayanCabrera2003/DayanCabrera2003/issues/4) by [@DayanCabrera2003](https://github.com/DayanCabrera2003)
 
 ```js
 print("Hello World");
