@@ -49,13 +49,10 @@ Built-ins: `print`, `range`, `sqrt`, `sin`, `cos`, `exp`, `log`, `rand`, `PI`, `
 </details>
 
 <!-- HULK:START -->
-Last run: [#9](https://github.com/DayanCabrera2003/DayanCabrera2003/issues/9) by [@DayanCabrera2003](https://github.com/DayanCabrera2003)
+Last run: [#10](https://github.com/DayanCabrera2003/DayanCabrera2003/issues/10) by [@DayanCabrera2003](https://github.com/DayanCabrera2003)
 
 ```js
-function fib(n: Number): Number =>
-    if (n <= 1) n else fib(n - 1) + fib(n - 2);
-
-for (i in range(0, 12)) print(fib(i));
+print("Hello World");
 ```
 
 **✅ Compiled and ran**
@@ -63,18 +60,7 @@ for (i in range(0, 12)) print(fib(i));
 Output:
 
 ```text
-0
-1
-1
-2
-3
-5
-8
-13
-21
-34
-55
-89
+Hello World
 ```
 <!-- HULK:END -->
 
