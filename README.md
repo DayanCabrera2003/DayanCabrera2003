@@ -87,7 +87,7 @@ A bot plays a full game of Tetris here, start to finish, on a loop. It is not a 
 </p>
 
 <!-- TETRIS:START -->
-Game `#1791256157` · **81** pieces · **17** lines cleared · a new game is generated every few hours
+Game `#1791256191` · **35** pieces · **1** lines cleared · a new game is generated every few hours
 <!-- TETRIS:END -->
 
 ## Projects
