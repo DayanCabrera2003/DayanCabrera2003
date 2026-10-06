@@ -33,13 +33,13 @@
  "best": 0,
  "games": 0,
  "players": {
-  "DayanCabrera2003": 2
+  "DayanCabrera2003": 3
  },
  "last": {
   "player": "DayanCabrera2003",
-  "action": "drop"
+  "action": "right"
  },
  "piece": "O",
  "rot": 0,
- "x": 3
+ "x": 4
 }

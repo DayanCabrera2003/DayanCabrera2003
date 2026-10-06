@@ -78,9 +78,9 @@ One game of Tetris shared by everyone who visits. Each button is one move on the
 <!-- TETRIS:START -->
 Score **290** · Lines **2** · Best **0** · Pieces placed **9**
 
-Last move: `drop` by [@DayanCabrera2003](https://github.com/DayanCabrera2003)
+Last move: `right` by [@DayanCabrera2003](https://github.com/DayanCabrera2003)
 
-Most moves this game: [@DayanCabrera2003](https://github.com/DayanCabrera2003) 2
+Most moves this game: [@DayanCabrera2003](https://github.com/DayanCabrera2003) 3
 <!-- TETRIS:END -->
 
 ## Projects
