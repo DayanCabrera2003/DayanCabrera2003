@@ -8,16 +8,16 @@ on:
     - cron: "41 */2 * * *"
   workflow_dispatch:
 
-concurrency:
-  group: readme
-  cancel-in-progress: false
-
 permissions:
   contents: write
   issues: write
 
 jobs:
   move:
+    # One at a time, so two runs never compute from the same state.
+    concurrency:
+      group: tetris
+      cancel-in-progress: false
     if: github.event_name != 'issues' || startsWith(github.event.issue.title, 'tetris:')
     runs-on: ubuntu-24.04
     timeout-minutes: 5
@@ -48,4 +48,8 @@ jobs:
           git add README.md tetris assets/tetris.svg
           git diff --cached --quiet && exit 0
           git commit -m "Tetris: new move"
-          git push
+          for attempt in 1 2 3 4 5; do
+            git pull --rebase --quiet && git push && exit 0
+            sleep $((attempt * 3))
+          done
+          exit 1
