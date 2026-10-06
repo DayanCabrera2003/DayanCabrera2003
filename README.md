@@ -89,11 +89,11 @@ One shared [Game of Life](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life)
 [🌱 Glider](https://github.com/DayanCabrera2003/DayanCabrera2003/issues/new?title=garden%3A%20glider&body=Press%20%2A%2ACreate%2A%2A%20to%20plant%20a%20glider%20in%20the%20garden.%20It%20lands%20in%20a%20random%20spot%20and%20the%20board%20updates%20in%20about%20a%20minute.) &nbsp;·&nbsp; [🚀 Spaceship](https://github.com/DayanCabrera2003/DayanCabrera2003/issues/new?title=garden%3A%20spaceship&body=Press%20%2A%2ACreate%2A%2A%20to%20plant%20a%20spaceship%20in%20the%20garden.%20It%20lands%20in%20a%20random%20spot%20and%20the%20board%20updates%20in%20about%20a%20minute.) &nbsp;·&nbsp; [🌿 R-pentomino](https://github.com/DayanCabrera2003/DayanCabrera2003/issues/new?title=garden%3A%20r-pentomino&body=Press%20%2A%2ACreate%2A%2A%20to%20plant%20a%20r-pentomino%20in%20the%20garden.%20It%20lands%20in%20a%20random%20spot%20and%20the%20board%20updates%20in%20about%20a%20minute.) &nbsp;·&nbsp; [🌰 Acorn](https://github.com/DayanCabrera2003/DayanCabrera2003/issues/new?title=garden%3A%20acorn&body=Press%20%2A%2ACreate%2A%2A%20to%20plant%20a%20acorn%20in%20the%20garden.%20It%20lands%20in%20a%20random%20spot%20and%20the%20board%20updates%20in%20about%20a%20minute.) &nbsp;·&nbsp; [✨ Pulsar](https://github.com/DayanCabrera2003/DayanCabrera2003/issues/new?title=garden%3A%20pulsar&body=Press%20%2A%2ACreate%2A%2A%20to%20plant%20a%20pulsar%20in%20the%20garden.%20It%20lands%20in%20a%20random%20spot%20and%20the%20board%20updates%20in%20about%20a%20minute.)
 
 <!-- GARDEN:START -->
-Generation **12** · **18** living cells
+Generation **18** · **49** living cells
 
-Cells alive by gardener: [@DayanCabrera2003](https://github.com/DayanCabrera2003) 18
+Cells alive by gardener: [@DayanCabrera2003](https://github.com/DayanCabrera2003) 49
 
-Last planted: `glider` by [@DayanCabrera2003](https://github.com/DayanCabrera2003)
+Last planted: `spaceship` by [@DayanCabrera2003](https://github.com/DayanCabrera2003)
 <!-- GARDEN:END -->
 
 ## Projects
