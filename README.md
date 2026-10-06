@@ -78,7 +78,9 @@ One game of Tetris shared by everyone who visits. Each button is one move on the
 <!-- TETRIS:START -->
 Score **280** · Lines **2** · Best **0** · Pieces placed **8**
 
-Last move: `auto` by the bot
+Last move: `rotate` by [@DayanCabrera2003](https://github.com/DayanCabrera2003)
+
+Most moves this game: [@DayanCabrera2003](https://github.com/DayanCabrera2003) 1
 <!-- TETRIS:END -->
 
 ## Projects

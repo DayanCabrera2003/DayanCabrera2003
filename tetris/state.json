@@ -33,12 +33,14 @@
  "pieces": 8,
  "best": 0,
  "games": 0,
- "players": {},
+ "players": {
+  "DayanCabrera2003": 1
+ },
  "last": {
-  "player": "the bot",
-  "action": "auto"
+  "player": "DayanCabrera2003",
+  "action": "rotate"
  },
  "piece": "J",
- "rot": 0,
+ "rot": 1,
  "x": 3
 }
