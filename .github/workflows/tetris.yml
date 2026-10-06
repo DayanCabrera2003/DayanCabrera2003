@@ -1,53 +1,31 @@
-name: Community Tetris
+name: Tetris
 
 on:
-  issues:
-    types: [opened]
   schedule:
-    # The bot places a piece every two hours so the stack keeps building.
-    - cron: "41 */2 * * *"
+    # A fresh self-playing game every three hours.
+    - cron: "41 */3 * * *"
   workflow_dispatch:
 
 permissions:
   contents: write
-  issues: write
 
 jobs:
-  move:
-    # One at a time, so two runs never compute from the same state.
+  generate:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 5
     concurrency:
       group: tetris
       cancel-in-progress: false
-    if: github.event_name != 'issues' || startsWith(github.event.issue.title, 'tetris:')
-    runs-on: ubuntu-24.04
-    timeout-minutes: 5
-    env:
-      GH_TOKEN: ${{ github.token }}
-      ISSUE_NUMBER: ${{ github.event.issue.number }}
     steps:
       - uses: actions/checkout@v4
-      - name: Player move
-        if: github.event_name == 'issues'
-        env:
-          ISSUE_TITLE: ${{ github.event.issue.title }}
-          PLAYER: ${{ github.event.issue.user.login }}
-        run: |
-          move="${ISSUE_TITLE#tetris:}"
-          if python3 scripts/tetris.py "$move" > note.txt 2> error.txt; then
-            gh issue close "$ISSUE_NUMBER" --comment "$(cat note.txt) [See the board](https://github.com/DayanCabrera2003#community-tetris)."
-          else
-            gh issue close "$ISSUE_NUMBER" --comment "$(cat error.txt)"
-          fi
-      - name: Bot move
-        if: github.event_name != 'issues'
-        run: python3 scripts/tetris.py auto
+      - name: Play a new game
+        run: python3 scripts/tetris.py
       - name: Commit
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add README.md tetris assets/tetris.svg
-          git diff --cached --quiet && exit 0
-          git commit -m "Tetris: new move"
+          git add README.md assets/tetris.svg
+          git commit -m "Tetris: new game"
           for attempt in 1 2 3 4 5; do
             git pull --rebase --quiet && git push && exit 0
             sleep $((attempt * 3))

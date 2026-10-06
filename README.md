@@ -14,7 +14,7 @@
 
 <p align="center">
   <a href="#hulk-playground">Run code on my compiler</a> ·
-  <a href="#community-tetris">Play Tetris</a> ·
+  <a href="#tetris">Watch Tetris</a> ·
   <a href="#projects">Projects</a> ·
   <a href="#what-i-work-with">Stack</a>
 </p>
@@ -78,23 +78,16 @@ Output:
 ```
 <!-- HULK:END -->
 
-## Community Tetris
+## Tetris
 
-One game of Tetris shared by everyone who visits. Each button is one move on the piece at the top: line it up, then drop it. When nobody is playing, a bot places a piece every couple of hours, so the stack keeps building either way.
+A bot plays a full game of Tetris here, start to finish, on a loop. It is not a very good player on purpose, so the stack always ends up reaching the top. Every few hours the game is thrown away and a new one is generated from a different seed.
 
 <p align="center">
-  <img src="assets/tetris.svg" width="330" alt="Shared Tetris board with the current piece falling">
+  <img src="assets/tetris.svg" width="240" alt="A game of Tetris playing itself">
 </p>
 
-[⬅️ Left](https://github.com/DayanCabrera2003/DayanCabrera2003/issues/new?title=tetris%3A%20left&body=Press%20%2A%2ACreate%2A%2A%20to%20play%20this%20move.%20The%20board%20updates%20in%20about%20a%20minute.) &nbsp;·&nbsp; [🔄 Rotate](https://github.com/DayanCabrera2003/DayanCabrera2003/issues/new?title=tetris%3A%20rotate&body=Press%20%2A%2ACreate%2A%2A%20to%20play%20this%20move.%20The%20board%20updates%20in%20about%20a%20minute.) &nbsp;·&nbsp; [➡️ Right](https://github.com/DayanCabrera2003/DayanCabrera2003/issues/new?title=tetris%3A%20right&body=Press%20%2A%2ACreate%2A%2A%20to%20play%20this%20move.%20The%20board%20updates%20in%20about%20a%20minute.) &nbsp;·&nbsp; [⬇️ Drop](https://github.com/DayanCabrera2003/DayanCabrera2003/issues/new?title=tetris%3A%20drop&body=Press%20%2A%2ACreate%2A%2A%20to%20play%20this%20move.%20The%20board%20updates%20in%20about%20a%20minute.)
-
-
 <!-- TETRIS:START -->
-Score **290** · Lines **2** · Best **0** · Pieces placed **9**
-
-Last move: `right` by [@DayanCabrera2003](https://github.com/DayanCabrera2003)
-
-Most moves this game: [@DayanCabrera2003](https://github.com/DayanCabrera2003) 3
+Game `#1791256157` · **81** pieces · **17** lines cleared · a new game is generated every few hours
 <!-- TETRIS:END -->
 
 ## Projects
