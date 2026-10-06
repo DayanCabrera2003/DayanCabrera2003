@@ -5,7 +5,7 @@
 <h1 align="center">Dayan Cabrera</h1>
 
 <!-- STATUS:START -->
-<p align="center"><sub>Just shipped a commit · last push 1h ago</sub></p>
+<p align="center"><sub>Coding · last push 3h ago</sub></p>
 <!-- STATUS:END -->
 
 <p align="center">
