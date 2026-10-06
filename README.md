@@ -24,8 +24,6 @@
   <a href="#what-i-work-with">Stack</a>
 </p>
 
-<img src="assets/divider.svg" width="100%" alt="">
-
 ## HULK playground
 
 I wrote a [compiler](https://github.com/DayanCabrera2003/hulk_compiler) in Rust for HULK, an object-oriented language: lexer to LLVM, native executables. You can run it from here without knowing the language. Pick an example, press **Create**, and the compiler answers in the issue.
@@ -71,8 +69,6 @@ Hello World
 ```
 <!-- HULK:END -->
 
-<img src="assets/divider.svg" width="100%" alt="">
-
 ## Tetris
 
 A bot is playing one game of Tetris here and it never loses. It looks a piece ahead, keeps the stack low and clears lines forever. What you see is the latest stretch of the game on a loop; every few hours it picks up where it left off and plays the next one.
@@ -85,8 +81,6 @@ A bot is playing one game of Tetris here and it never loses. It looks a piece ah
 One endless game · **180** pieces placed · **69** lines cleared so far
 <!-- TETRIS:END -->
 
-<img src="assets/divider.svg" width="100%" alt="">
-
 ## Lately
 
 What I have been pushing to, straight from my public activity.
@@ -97,8 +91,6 @@ What I have been pushing to, straight from my public activity.
 - [`Almacen-Distribuido`](https://github.com/DayanCabrera2003/Almacen-Distribuido) · pushed Sep 29
 - [`Horario`](https://github.com/DayanCabrera2003/Horario) · pushed Sep 28
 <!-- LATELY:END -->
-
-<img src="assets/divider.svg" width="100%" alt="">
 
 ## Projects
 
@@ -137,8 +129,6 @@ A layer 2 protocol that skips TCP/IP entirely. Broadcast and unicast messages, f
 `Python` `Raw sockets` `Ethernet` · [Repository](https://github.com/DayanCabrera2003/Link-Chat)
 
 </details>
-
-<img src="assets/divider.svg" width="100%" alt="">
 
 ## What I work with
 
@@ -190,8 +180,6 @@ A layer 2 protocol that skips TCP/IP entirely. Broadcast and unicast messages, f
   <img src="https://img.shields.io/badge/Vue.js-3FB27F?style=for-the-badge&logo=vuedotjs&logoColor=white" alt="Vue.js" height="28">
   <img src="https://img.shields.io/badge/Tailwind_CSS-0891B2?style=for-the-badge&logo=tailwindcss&logoColor=white" alt="Tailwind CSS" height="28">
 </p>
-
-<img src="assets/divider.svg" width="100%" alt="">
 
 <p align="center">
   <a href="https://github.com/DayanCabrera2003?tab=repositories">More repositories</a>

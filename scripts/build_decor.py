@@ -1,8 +1,8 @@
-"""Build the static decorative SVGs: the typed tagline and the section divider.
+"""Build the typed tagline SVG.
 
     build_decor.py
 
-Writes assets/typing.svg and assets/divider.svg.
+Writes assets/typing.svg.
 """
 
 from pathlib import Path
@@ -19,7 +19,6 @@ WIDTH, HEIGHT = 600, 44
 FONT_SIZE = 24
 CHAR = FONT_SIZE * 0.6
 SLOT_SECONDS = 4.5
-BLOCK_COLORS = ["#22b8cf", "#f5b301", "#a55eea", "#37b24d", "#f03e3e", "#4c6ef5", "#f76707"]
 
 
 def typing() -> str:
@@ -60,29 +59,8 @@ def typing() -> str:
     return "\n".join(out) + "\n"
 
 
-def divider() -> str:
-    count, size, gap = 40, 9, 6
-    height = 26
-    out = [
-        f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {count * (size + gap)} {height}" '
-        'role="presentation">',
-        "<style>rect{animation:w 2.8s ease-in-out infinite}"
-        "@keyframes w{0%,100%{transform:translateY(0);opacity:.35}50%{transform:translateY(-9px);opacity:1}}"
-        "@media (prefers-reduced-motion:reduce){rect{animation:none;opacity:.7}}</style>",
-    ]
-    for index in range(count):
-        out.append(
-            f'<rect x="{index * (size + gap) + gap / 2:g}" y="{height - size - 2}" width="{size}" '
-            f'height="{size}" rx="2" fill="{BLOCK_COLORS[index % len(BLOCK_COLORS)]}" '
-            f'style="animation-delay:{-index * 0.09:.2f}s"/>'
-        )
-    out.append("</svg>")
-    return "\n".join(out) + "\n"
-
-
 def main() -> None:
     (ASSETS / "typing.svg").write_text(typing(), encoding="utf-8")
-    (ASSETS / "divider.svg").write_text(divider(), encoding="utf-8")
 
 
 if __name__ == "__main__":
