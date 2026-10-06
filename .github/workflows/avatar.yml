@@ -5,15 +5,15 @@ on:
     - cron: "17 * * * *"
   workflow_dispatch:
 
-concurrency:
-  group: readme
-  cancel-in-progress: false
-
 permissions:
   contents: write
 
 jobs:
   update:
+    # One at a time, so two runs never compute from the same state.
+    concurrency:
+      group: avatar
+      cancel-in-progress: false
     runs-on: ubuntu-24.04
     timeout-minutes: 5
     steps:
@@ -29,4 +29,8 @@ jobs:
           git add README.md assets/avatar.svg
           git diff --cached --quiet && exit 0
           git commit -m "Avatar: update state"
-          git push
+          for attempt in 1 2 3 4 5; do
+            git pull --rebase --quiet && git push && exit 0
+            sleep $((attempt * 3))
+          done
+          exit 1

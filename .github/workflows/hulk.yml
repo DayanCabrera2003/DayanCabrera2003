@@ -4,10 +4,6 @@ on:
   issues:
     types: [opened]
 
-concurrency:
-  group: readme
-  cancel-in-progress: false
-
 env:
   HULK_RELEASE: https://github.com/DayanCabrera2003/hulk_compiler/releases/download/v0.1.0/hulk-linux-x86_64.tar.gz
 
@@ -39,6 +35,10 @@ jobs:
 
   publish:
     needs: run
+    # One at a time, so two runs never compute from the same state.
+    concurrency:
+      group: hulk
+      cancel-in-progress: false
     runs-on: ubuntu-24.04
     timeout-minutes: 5
     permissions:
@@ -66,4 +66,8 @@ jobs:
           git add README.md
           git diff --cached --quiet && exit 0
           git commit -m "HULK playground: run #${{ github.event.issue.number }}"
-          git push
+          for attempt in 1 2 3 4 5; do
+            git pull --rebase --quiet && git push && exit 0
+            sleep $((attempt * 3))
+          done
+          exit 1
