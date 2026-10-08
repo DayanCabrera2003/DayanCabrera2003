@@ -5,7 +5,7 @@
 <h1 align="center">Dayan Cabrera</h1>
 
 <!-- STATUS:START -->
-<p align="center"><sub>Coding · last push 13h ago</sub></p>
+<p align="center"><sub>Asleep · 05:07 in Havana</sub></p>
 <!-- STATUS:END -->
 
 <p align="center">
@@ -86,7 +86,7 @@ One endless game · **810** pieces placed · **322** lines cleared so far
 What I have been pushing to, straight from my public activity.
 
 <!-- LATELY:START -->
-- [`daa-blossom-game`](https://github.com/DayanCabrera2003/daa-blossom-game) · pushed Oct 7
+- [`daa-blossom-game`](https://github.com/DayanCabrera2003/daa-blossom-game) · pushed Oct 6
 - [`Horario`](https://github.com/DayanCabrera2003/Horario) · pushed Oct 7
 - [`hulk_compiler`](https://github.com/DayanCabrera2003/hulk_compiler) · pushed Oct 5
 - [`Almacen-Distribuido`](https://github.com/DayanCabrera2003/Almacen-Distribuido) · pushed Sep 29
