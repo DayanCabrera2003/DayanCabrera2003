@@ -5,7 +5,7 @@
 <h1 align="center">Dayan Cabrera</h1>
 
 <!-- STATUS:START -->
-<p align="center"><sub>Asleep · 04:37 in Havana</sub></p>
+<p align="center"><sub>Around · last push 42h ago</sub></p>
 <!-- STATUS:END -->
 
 <p align="center">
@@ -89,7 +89,6 @@ What I have been pushing to, straight from my public activity.
 - [`orquestador`](https://github.com/DayanCabrera2003/orquestador) · pushed Oct 8
 - [`daa-blossom-game`](https://github.com/DayanCabrera2003/daa-blossom-game) · pushed Oct 6
 - [`Horario`](https://github.com/DayanCabrera2003/Horario) · pushed Oct 7
-- [`hulk_compiler`](https://github.com/DayanCabrera2003/hulk_compiler) · pushed Oct 5
 <!-- LATELY:END -->
 
 ## Projects
