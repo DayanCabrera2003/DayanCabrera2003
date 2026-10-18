@@ -5,7 +5,7 @@
 <h1 align="center">Dayan Cabrera</h1>
 
 <!-- STATUS:START -->
-<p align="center"><sub>Asleep · 02:01 in Havana</sub></p>
+<p align="center"><sub>First coffee of the day · 07:20 in Havana</sub></p>
 <!-- STATUS:END -->
 
 <p align="center">
@@ -87,6 +87,7 @@ What I have been pushing to, straight from my public activity.
 
 <!-- LATELY:START -->
 - [`daa-blossom-game`](https://github.com/DayanCabrera2003/daa-blossom-game) · pushed Oct 17
+- [`Almacen-Distribuido`](https://github.com/DayanCabrera2003/Almacen-Distribuido) · pushed Oct 17
 - [`Horario`](https://github.com/DayanCabrera2003/Horario) · pushed Oct 13
 - [`orquestador`](https://github.com/DayanCabrera2003/orquestador) · pushed Oct 8
 <!-- LATELY:END -->
