@@ -78,7 +78,7 @@ A bot is playing one game of Tetris here and it never loses. It looks a piece ah
 </p>
 
 <!-- TETRIS:START -->
-One endless game · **5,580** pieces placed · **2,231** lines cleared so far
+One endless game · **5,670** pieces placed · **2,267** lines cleared so far
 <!-- TETRIS:END -->
 
 ## Lately
