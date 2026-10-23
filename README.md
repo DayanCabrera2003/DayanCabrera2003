@@ -5,7 +5,7 @@
 <h1 align="center">Dayan Cabrera</h1>
 
 <!-- STATUS:START -->
-<p align="center"><sub>First coffee of the day · 09:34 in Havana</sub></p>
+<p align="center"><sub>Coding · last push 5h ago</sub></p>
 <!-- STATUS:END -->
 
 <p align="center">
@@ -86,7 +86,7 @@ One endless game · **6,300** pieces placed · **2,518** lines cleared so far
 What I have been pushing to, straight from my public activity.
 
 <!-- LATELY:START -->
-- [`devi`](https://github.com/DayanCabrera2003/devi) · pushed Oct 21
+- [`devi`](https://github.com/DayanCabrera2003/devi) · pushed Oct 23
 - [`Horario`](https://github.com/DayanCabrera2003/Horario) · pushed Oct 21
 - [`daa-blossom-game`](https://github.com/DayanCabrera2003/daa-blossom-game) · pushed Oct 19
 - [`Almacen-Distribuido`](https://github.com/DayanCabrera2003/Almacen-Distribuido) · pushed Oct 19
