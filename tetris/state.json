@@ -17,15 +17,16 @@
   "..........",
   "..........",
   "..........",
-  "OO.Z..L...",
-  "OOZZLLL...",
-  "JZZTSJJJ.I"
+  "..ZZ......",
+  "JJJZZOOIT.",
+  "J.JJJOOITT"
  ],
  "queue": [
-  "T"
+  "L",
+  "I"
  ],
- "bags": 1196,
- "pieces": 8370,
- "lines": 3346,
+ "bags": 1209,
+ "pieces": 8460,
+ "lines": 3382,
  "piece": "S"
 }
