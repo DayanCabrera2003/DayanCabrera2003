@@ -5,7 +5,7 @@
 <h1 align="center">Dayan Cabrera</h1>
 
 <!-- STATUS:START -->
-<p align="center"><sub>On vacation · last push 7 days ago</sub></p>
+<p align="center"><sub>On vacation · last push 8 days ago</sub></p>
 <!-- STATUS:END -->
 
 <p align="center">
