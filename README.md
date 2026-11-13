@@ -2,7 +2,7 @@
   <img src="assets/avatar.svg" width="220" alt="Animated chibi of Dayan, changing with his latest activity">
 </p>
 
-<h1 align="center">Dayan Cabrera</h1>
+<h1 align="center">Dayan Cabrera Corvo</h1>
 
 <!-- STATUS:START -->
 <p align="center"><sub>Figuring out the next thing · last push 4 days ago</sub></p>
@@ -13,10 +13,11 @@
 </p>
 
 <p align="center">
-  Backend &amp; AI engineer. I build compilers, NLP pipelines and network protocols — mostly in Python and Rust, always on Linux.
+  AI &amp; full-stack engineer. At work I build AI systems that companies trust with sensitive data; for fun, compilers, NLP pipelines and network protocols — mostly in Python and Rust, always on Linux.
 </p>
 
 <p align="center">
+  <a href="https://dayancabrera2003.github.io/"><b>Portfolio &amp; CV</b></a> ·
   <a href="#hulk-playground">Run code on my compiler</a> ·
   <a href="#tetris">Watch Tetris</a> ·
   <a href="#lately">Lately</a> ·
