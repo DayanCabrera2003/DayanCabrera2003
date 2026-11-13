@@ -16,20 +16,21 @@
   "..........",
   "..........",
   "..........",
-  "..........",
-  "...Z....LI",
-  "OOZZ..LLLI",
-  "OOZZZ.SSTI"
+  "..OO...L.I",
+  ".TOOSLLLZI",
+  "TTJ.SS.ZZI",
+  "OOJLZZIT.I"
  ],
  "queue": [
-  "S",
   "L",
+  "S",
+  "O",
   "I",
-  "T",
-  "O"
+  "Z",
+  "T"
  ],
- "bags": 1788,
- "pieces": 12510,
- "lines": 5002,
+ "bags": 1801,
+ "pieces": 12600,
+ "lines": 5037,
  "piece": "J"
 }
