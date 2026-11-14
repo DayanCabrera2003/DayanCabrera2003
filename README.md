@@ -5,7 +5,7 @@
 <h1 align="center">Dayan Cabrera Corvo</h1>
 
 <!-- STATUS:START -->
-<p align="center"><sub>First coffee of the day · 09:16 in Havana</sub></p>
+<p align="center"><sub>Figuring out the next thing · last push 5 days ago</sub></p>
 <!-- STATUS:END -->
 
 <p align="center">
@@ -90,7 +90,6 @@ What I have been pushing to, straight from my public activity.
 - [`Photovoltaic-generation-forecasting`](https://github.com/ABELNoval/Photovoltaic-generation-forecasting) · pushed Nov 9
 - [`devi`](https://github.com/DayanCabrera2003/devi) · pushed Oct 23
 - [`Horario`](https://github.com/DayanCabrera2003/Horario) · pushed Oct 21
-- [`daa-blossom-game`](https://github.com/DayanCabrera2003/daa-blossom-game) · pushed Oct 19
 <!-- LATELY:END -->
 
 ## Projects
