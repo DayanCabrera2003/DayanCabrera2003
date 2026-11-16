@@ -5,7 +5,7 @@
 <h1 align="center">Dayan Cabrera Corvo</h1>
 
 <!-- STATUS:START -->
-<p align="center"><sub>Coding · last push 4h ago</sub></p>
+<p align="center"><sub>Around · last push 2 days ago</sub></p>
 <!-- STATUS:END -->
 
 <p align="center">
@@ -87,10 +87,10 @@ One endless game · **13,410** pieces placed · **5,362** lines cleared so far
 What I have been pushing to, straight from my public activity.
 
 <!-- LATELY:START -->
-- [`daa-blossom-game`](https://github.com/DayanCabrera2003/daa-blossom-game) · pushed Nov 15
+- [`DayanCabrera2003.github.io`](https://github.com/DayanCabrera2003/DayanCabrera2003.github.io) · pushed Nov 13
+- [`daa-blossom-game`](https://github.com/DayanCabrera2003/daa-blossom-game) · pushed Nov 14
+- [`Almacen-Distribuido`](https://github.com/DayanCabrera2003/Almacen-Distribuido) · pushed Nov 14
 - [`Photovoltaic-generation-forecasting`](https://github.com/ABELNoval/Photovoltaic-generation-forecasting) · pushed Nov 9
-- [`devi`](https://github.com/DayanCabrera2003/devi) · pushed Oct 23
-- [`Horario`](https://github.com/DayanCabrera2003/Horario) · pushed Oct 21
 <!-- LATELY:END -->
 
 ## Projects
