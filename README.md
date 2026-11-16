@@ -5,7 +5,7 @@
 <h1 align="center">Dayan Cabrera Corvo</h1>
 
 <!-- STATUS:START -->
-<p align="center"><sub>Asleep · 03:03 in Havana</sub></p>
+<p align="center"><sub>Coding · last push 18h ago</sub></p>
 <!-- STATUS:END -->
 
 <p align="center">
@@ -87,8 +87,8 @@ One endless game · **13,500** pieces placed · **5,399** lines cleared so far
 What I have been pushing to, straight from my public activity.
 
 <!-- LATELY:START -->
-- [`DayanCabrera2003.github.io`](https://github.com/DayanCabrera2003/DayanCabrera2003.github.io) · pushed Nov 13
 - [`daa-blossom-game`](https://github.com/DayanCabrera2003/daa-blossom-game) · pushed Nov 15
+- [`DayanCabrera2003.github.io`](https://github.com/DayanCabrera2003/DayanCabrera2003.github.io) · pushed Nov 13
 - [`Almacen-Distribuido`](https://github.com/DayanCabrera2003/Almacen-Distribuido) · pushed Nov 14
 - [`Photovoltaic-generation-forecasting`](https://github.com/ABELNoval/Photovoltaic-generation-forecasting) · pushed Nov 9
 <!-- LATELY:END -->
