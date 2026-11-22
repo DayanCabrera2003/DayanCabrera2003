@@ -14,22 +14,23 @@
   "..........",
   "..........",
   "..........",
-  "..Z.......",
-  ".ZZ...LLL.",
-  ".ZOO.TLZS.",
-  ".IOOTTZZSS",
-  ".IJJJTZZSS",
-  "JIOOJLSSZ."
+  "..........",
+  "I.........",
+  "IT...J....",
+  "ITT.LJJJS.",
+  "ZTOOTTSLI.",
+  "LOOJTLLLI."
  ],
  "queue": [
-  "L",
-  "J",
+  "I",
+  "O",
+  "Z",
   "S",
-  "T",
-  "O"
+  "J",
+  "T"
  ],
- "bags": 2148,
- "pieces": 15030,
- "lines": 6008,
- "piece": "I"
+ "bags": 2161,
+ "pieces": 15120,
+ "lines": 6045,
+ "piece": "L"
 }
