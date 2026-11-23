@@ -5,7 +5,7 @@
 <h1 align="center">Dayan Cabrera Corvo</h1>
 
 <!-- STATUS:START -->
-<p align="center"><sub>Figuring out the next thing · last push 5 days ago</sub></p>
+<p align="center"><sub>First coffee of the day · 09:53 in Havana</sub></p>
 <!-- STATUS:END -->
 
 <p align="center">
